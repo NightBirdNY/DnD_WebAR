@@ -27,3 +27,32 @@ Traditionally, AR applications require heavy engine runtimes (like Unity) or ded
 ├── index.html          # Main application and logic
 ├── targets.mind        # Compiled AR marker (Character Sheet fingerprints)
 └── assets/             # 3D models, images, and visual assets
+```
+
+## 🛠️ How to Run Locally
+
+Since the application requires camera access and a secure context:
+
+    Clone the repository.
+
+    Open the project in PyCharm Professional or VS Code.
+
+    Use a local server (e.g., PyCharm's built-in server or Live Server extension).
+
+    Navigate to http://localhost:[PORT].
+
+    Point your camera at the target character sheet.
+
+## 📜 Academic Context
+
+This project was developed as a Proof of Concept (PoC) for a graduate-level Augmented Reality course at Tokat Gaziosmanpaşa University. It explores the transition from heavyweight game engines to lightweight web standards in the context of tabletop gaming.
+🗺️ Roadmap
+
+    [ ] OCR Integration: Read handwritten values from the physical sheet using Tesseract.js.
+
+    [ ] 3D Dice Roller: Integrated physics-based dice rolling on the sheet's surface.
+
+    [ ] Multi-Target Support: Tracking multiple sheets for different party members.
+
+
+Developer: Taha Sencer Şenel
